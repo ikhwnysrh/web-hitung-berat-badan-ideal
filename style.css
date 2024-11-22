@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f8f9fa;
+}
+h3 {
+  color: gray;
+}
+strong {
+  font-size: 19px;
+}
+.header {
+  background-color: #f58220;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+.breadcrumb {
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+}
+.breadcrumb a {
+  color: #f58220;
+  text-decoration: none;
+}
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+.container {
+  /* height: 100vh; */
+  max-width: 800px;
+  border-radius: 10px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container h2 {
+  color: #f58220;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container p {
+  text-align: center;
+  color: #666;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-group input[type="radio"] {
+  width: auto;
+  margin-right: 10px;
+}
+.form-group .radio-label {
+  display: inline-block;
+  margin-right: 20px;
+}
+.form-group .radio-label input {
+  margin-right: 5px;
+}
+.form-group .half-width {
+  width: 48%;
+  display: inline-block;
+}
+.form-group .half-width:first-child {
+  margin-right: 4%;
+}
+.form-group .full-width {
+  width: 100%;
+}
+.form-group .submit-btn {
+  background-color: #f58220;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.form-group .submit-btn:hover {
+  background-color: #f87400;
+}
+.image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
