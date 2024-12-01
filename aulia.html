@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Hitung Berat Badan</title>
+    <link rel="stylesheet" href="aulia1.css">
+</head>
+<body>
+    <div class="container">
+        <header><h1>Hitung Berat Badan Ideal</h1> </header>
+
+        <H5> Web ini membantu menghitung berat badan ideal berdasarkan tinggi badan dengan antar mukasederhan dan responsif</H5>
+        <div style="display: flex; justify-content: center;">
+            <img src="OIP.jpeg" width="300" height="200" alt="">
+            </div>
+        <form id="bmiForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" placeholder="Masukkan nama" required>
+            
+            <label for="age">Usia:</label>
+            <input type="number" id="age" placeholder="Masukkan usia (tahun)" required>
+            
+            <label for="gender">Jenis Kelamin:</label>
+            <select id="gender">
+                <option value="male">Laki-laki</option>
+                <option value="female">Perempuan</option>
+            </select>
+            
+            <label for="activity">Tingkat Aktivitas:</label>
+            <select id="activity">
+                <option value="low">Rendah</option>
+                <option value="moderate">Sedang</option>
+                <option value="high">Tinggi</option>
+            </select>
+            
+            <label for="    weight">Berat Badan (kg):</label>
+            <input type="number" id="weight" placeholder="Masukkan berat badan" required>
+            
+            <label for="height">Tinggi Badan (cm):</label>
+            <input type="number" id="height" placeholder="Masukkan tinggi badan" required>
+            
+            <button type="button" onclick="calculateBMI()">Hitung</button>
+
+            <div class="footer">
+        <p><a href="kontak.html">Kontak Kami</a></p>
+    </div>
+
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="aulia.js"></script>
+</body>
+</html>
